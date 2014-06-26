@@ -8,13 +8,6 @@ android {
         minSdkVersion 8
         targetSdkVersion compileSdkVersionValue
     }
-    buildTypes {
-        release {
-            runProguard true
-            proguardFile 'proguard-rules.txt'
-            proguardFile getDefaultProguardFile('proguard-android-optimize.txt')
-        }
-    }
 
     sourceSets {
         main {
