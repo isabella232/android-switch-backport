@@ -484,6 +484,7 @@ public class Switch extends CompoundButton {
         super.setChecked(checked);
         mThumbPosition = checked ? getThumbScrollRange() : 0;
         invalidate();
+        requestLayout();
     }
 
     @Override
